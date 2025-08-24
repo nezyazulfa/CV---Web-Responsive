@@ -26,13 +26,6 @@ project/
 └── image/
     └── profile.jpg # Foto profil
 
-📸 Preview
-
-Tampilan utama CV (desktop):
-
-
-(ganti dengan screenshot tampilan CV jika sudah ada)
-
 🔧 Cara Menjalankan
 
 Clone repository ini:
@@ -66,4 +59,5 @@ https://username.github.io/cv-nezya/
 Nezya Zulfa F.
 NIM: 241511085
 Kelas: 2C – D3 Teknik Informatika
+
 Politeknik Negeri Bandung
