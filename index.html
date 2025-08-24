@@ -5,50 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV Nezya Zulfa F.</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    /* tambahan clearfix supaya .main punya tinggi */
-    .main::after {
-      content: "";
-      display: block;
-      clear: both;
-    }
-
-    /* contoh supaya kelihatan jelas gradiennya */
-    .main {
-      background: linear-gradient(183deg, #3423ad, #8c1c80);
-      border-radius: 10px;
-      padding: 10px;
-      margin: 20px auto;
-      width: 900px;
-    }
-  </style>
 </head>
 <body>
 
   <div class="main">
+    <!-- Left Section -->
     <div class="left-section">
       <h1 class="name">NEZYA<br>ZULFA F.</h1>
       <p class="d_p">Student</p>
 
       <div class="profile">
-        <img src="image/profile.jpg">
-        <br/><br/><br/>
+        <img src="image/profile.jpg" alt="Profile Nezya">
         <h2>About Me</h2>
         <p class="about_nezya">
           Mahasiswi Politeknik Negeri Bandung yang berdedikasi, berpengalaman di media sosial, desain UI/UX, serta aktif dalam organisasi dan kegiatan sosial. Terbiasa bekerja tim, bertanggung jawab, dan adaptif.
         </p>
       </div>
-      <br/>
+
       <p class="p_h"><i class="bx bx-phone-call"></i>Phone Number: +6285861884099</p>
       <p class="p_h"><i class="bx bx-instagram"></i>Instagram: @nezyazulfa</p>
       <p class="p_h"><i class="bx bx-email"></i>E-mail: nezya.zulfa.tif24@polban.ac.id</p>
-        
-      <br/><br/>
+      <br>
 
-      <div class="right-section"></div>
+      <!-- Skill -->
       <div class="clearfix"></div>
-      <h2>Languages</h2>
-      <br/>
+      <h2>Skill</h2>
       <p class="l_p">
         Adaptasi
         <span class="circle1"></span>
@@ -77,32 +58,37 @@
         <span class="circle3"></span>
         <span class="circle4" style="background: transparent; border: 1px solid white;"></span>
       </p>
-
-      
+      <p class="l_p">
+        Berpikir Kritis
+        <span class="circle1"></span>
+        <span class="circle2"></span>
+        <span class="circle3"></span>
+        <span class="circle4" style="background: transparent; border: 1px solid white;"></span>
+      </p>
     </div>
 
+    <!-- Right Section -->
     <div class="right-section">
       <div class="content-inner">
         <h3>Education</h3>
         <div class="content-inner">
           <h4>Politeknik Negeri Bandung (2024-sekarang)</h4>
           <h5>D-3 Teknik Informatika</h5>
-          <br/>
+
           <h4>SMAN 1 Cisarua (2021-2024)</h4>
           <h5>MIPA</h5>
-          <br/>
+
           <h4>SMPN 1 Ngamprah (2018-2024)</h4>
         </div>
-        <br/>
+
         <h3>Projects</h3>
         <div class="content-inner">
           <h4>Proyek 1: Pemanfaatan Aplikasi Perkantoran</h4>
           <p class="para">Pada proyek 1, saya mengumpulkan data lowongan kerja dari berbagai sumber hingga terkumpul sekitar 7.000 data. Data tersebut kemudian dibersihkan melalui proses seleksi duplikat, standarisasi format, dan perapihan lainnya agar siap untuk dianalisis lebih lanjut.</p>
-          <br/>
+
           <h4>Proyek 2: Pengembangan Aplikasi Berbasis Library</h4>
           <p class="para">Pada proyek kedua, saya mengembangkan sebuah game dengan pengelolaan menggunakan Version Control System (VCS) untuk memastikan kolaborasi dan kontrol revisi yang baik. Dalam prosesnya, saya juga memanfaatkan berbagai library pendukung untuk mempercepat pengembangan serta meningkatkan kualitas fitur dalam game.</p>
         </div>
-        <br/>
 
         <h3>Experience</h3>
         <div class="content-inner">
@@ -112,25 +98,48 @@
             <li>UI/UX Designer Himakom Super Apps</li>
             <li>Membuat Profil Kabinet</li>
           </ul>
-          <br/>
+
           <h4>Fellas Polban (2024-sekarang)</h4>
           <ul>
             <li>Wakil Ketua Pelaksana Fellas Teaching</li>
             <li>PDD Seminar & Kompetisi</li>
             <li>PDD Studi Banding</li>
           </ul>
-          <br/>
+
           <h4>Polban Mengajar (2025-sekarang)</h4>
           <ul>
-            <li>Penserta Polban Mengajar, SDN Kanaan</li>
+            <li>Peserta Polban Mengajar, SDN Kanaan</li>
             <li>Peserta Polban Mengajar, SDN Ciparay</li>
             <li>Koordinator Divisi PDD Safari Mengajar</li>
           </ul>
         </div>
-        <div class="clearfix"></div>
       </div>
     </div>
+  </div>
 
+  <!-- Portfolio -->
+  <div class="portfolio">
+    <div class="content-inner">
+      <h2>Galeri Kegiatan</h2>
+      <div class="gallery">
+        <div class="item">
+          <img src="image/kkn.jpeg" alt="Kegiatan 1">
+          <p>Tim Atikan (Tim Pendidikan) KKN Sasagara Polban 2025.</p>
+        </div>
+        <div class="item">
+          <img src="image/fellas.jpeg" alt="Kegiatan 2">
+          <p>Wakil Ketua Pelaksana Fellas Teaching 2025.</p>
+        </div>
+        <div class="item">
+          <img src="image/poljar.jpeg" alt="Kegiatan 3">
+          <p>Kegiatan Polban Mengajar di SDN Ciparay.</p>
+        </div>
+        <div class="item">
+          <img src="image/kominfo.jpeg" alt="Kegiatan 4">
+          <p>Kegiatan membuat short movie bersama Kominfo.</p>
+        </div>
+      </div>
+    </div>
   </div>
 
 </body>
